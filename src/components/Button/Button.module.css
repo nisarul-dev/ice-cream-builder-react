@@ -1,0 +1,21 @@
+.order {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+  border: 1px solid transparent;
+  display: block;
+  margin: 30px auto 0;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+button {
+  outline: none;
+  cursor: pointer !important;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+}
